@@ -1,0 +1,3 @@
+# GBM-MPT-Comparison
+A comparison of the applications of Modern Portfolio Theory (MPT) and Geometric Brownian Motion (GBM) for predicting terminal portfolio values in quantitative finance. Following MPT, this codebase takes a .csv file of investment data as input (symbol, initial_value) to create portfolios optimized for specific levels of return, variance, or a simple Sharpe ratio. The project then applies GBM via Monte Carlo simulations to predict terminal distributions of portfolio wealth, using historical data from Yahoo Finance. Finally, it outputs summary statistics, histograms, and a Kullback-Leibler divergence for both methods (MPT and GBM) across all 4 portfolios. Results are discussed in a research paper.
+
